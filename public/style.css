@@ -17,6 +17,9 @@ body.alt {
   background-color: var(--dark1);
 }
 
+p {
+  color: var(--dark1);
+}
 #bg-mode {
   background-color: rgba(215, 220, 204, 0.3);
   border: none;
