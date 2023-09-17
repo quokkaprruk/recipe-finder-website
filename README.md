@@ -3,7 +3,7 @@ This is a Food Recipe Application
 
 **1. Clone the repository**
 
-   git clone https://github.com/quokkaprruk/recipe-search-app.git
+   git clone https://github.com/quokkaprruk/recipe-finder-website.git
 
 **2. Navigate to project directory**
 
