@@ -1,4 +1,4 @@
-# recipe-search-app
+# recipe-finder
 This is a Food Recipe Application
 
 **1. Clone the repository**
