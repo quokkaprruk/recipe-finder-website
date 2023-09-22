@@ -3,11 +3,12 @@ const express = require("express");
 const path = require("path");
 const axios = require("axios");
 const dotenv = require("dotenv");
+const cors = require("cors");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-
 dotenv.config();
+app.use(cors());
 
 //static files
 app.use(express.static(path.join(__dirname, "/public")));
