@@ -1,16 +1,18 @@
-# recipe-search-app
+# recipe-finder
 This is a Food Recipe Application
 
-1. Clone the repository
+**Skills: Node.js, Express.js, API Integration, Axios, HTML, CSS, Responsive Design**
 
-   git clone https://github.com/quokkaprruk/recipe-search-app.git
+**1. Clone the repository**
 
-2. Navigate to project directory
+   git clone https://github.com/quokkaprruk/recipe-finder-website.git
 
-3. Install Dependencies
+**2. Navigate to project directory**
+
+**3. Install Dependencies**
 
    npm install
 
-4. Start Application
+**4. Start Application**
 
    npm start
