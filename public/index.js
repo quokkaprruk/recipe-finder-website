@@ -1,7 +1,3 @@
-//const accessKey = "RZEIOVfPhS7vMLkFdd2TSKGFBS4o9_FmcV1Nje3FSjw";
-
-//const { log } = require("console");
-
 const body = document.body;
 const screenMode = document.getElementById("bg-mode");
 const searchSection = document.querySelector(".search-section");

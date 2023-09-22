@@ -22,10 +22,10 @@ const express = require("express");
 const path = require("path");
 const axios = require("axios");
 const dotenv = require("dotenv");
+
 const app = express();
-
-
 const PORT = process.env.PORT || 3000;
+
 dotenv.config();
 
 //static files
