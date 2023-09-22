@@ -21,9 +21,12 @@ app.listen(PORT, () => {
 const express = require("express");
 const path = require("path");
 const axios = require("axios");
-
+const dotenv = require("dotenv");
 const app = express();
+
+
 const PORT = process.env.PORT || 3000;
+dotenv.config();
 
 //static files
 app.use(express.static(path.join(__dirname, "public")));
@@ -35,8 +38,8 @@ app.get("/", (req, res) => {
 app.get("/search", async (req, res) => {
   try {
     const { query } = req.query;
-    const app_id = "d0be263e";
-    const app_key = "f62d38638621da37eb9e191e6fed1f19";
+    const app_id = process.env.API_KEY;
+    const app_key = process.env.APP_KEY;
     /* Access Point: https://api.edamam.com/api/recipes/v2?*/
     const url = `https://api.edamam.com/api/recipes/v2?type=public&q=${query}&app_id=${app_id}&app_key=${app_key}`;
 
