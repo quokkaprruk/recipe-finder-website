@@ -6,7 +6,7 @@ This is a Food Recipe Application. With the user-friendly interface, you can qui
 
 ## Let's try
 
-https://tiny-red-spacesuit.cyclic.cloud/
+<!-- https://tiny-red-spacesuit.cyclic.cloud/ -->
 
 ## Day Mode
 
